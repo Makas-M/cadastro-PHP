@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro de Clientes</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<form method="get" action="php/index.php">
+		<h1>Cadastro de Clientes</h1>
+		<label>Nome: </label><input type="text" name="nome">
+		<label>Sobre Nome: </label><input type="text" name="sobreNome">
+		<label>Data de Registo: </label><input type="date" name="dataReg">
+		<label>E-mail: </label><input type="email" name="email">
+		<input type="submit" name="submeter">
+		<a href="listaClientes.php">Lista de Clientes</a>
+	</form>
+
+	<table border="1">
+		<tr>
+			<td>id</td>
+			<td>nome</td>
+			<td>Sobre Nome</td>
+			<td>Data de Registo</td>
+			<td>E-mail</td>
+		</tr>
+	</table>
+</body>
+</html>
